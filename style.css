@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("imagenes/Background.png");
+    background-size: cover;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+nav a img{
+    width: 30px;
+    height: 30px;
+}
+
+nav h2{
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 0 33px;
+    font-weight: 500;
+    color:black;
+}
+
+.descripcion{
+    padding-top: 100px;
+    padding-left:  150px;
+    padding-right: 150px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columna h1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.columna .foto{
+    width: 500px;
+    height: 700px;
+    margin-right: 50px;
+}
+
+.columna p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.iconos{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: white;
+    padding: 66px;
+    box-shadow: 10px 7px 5px -1px rgba(0,0,0,0.14);
+-webkit-box-shadow: 10px 7px 5px -1px rgba(0,0,0,0.14);
+-moz-box-shadow: 10px 7px 5px -1px rgba(0,0,0,0.14);
+}
+
+.iconos p{
+    text-align: justify;
+}
+
+.iconos a{
+    color: red;
+}
+
+.botones .contacto{
+    background-color:#3E82FC ;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.botones .video{
+    border: 1px solid #3E82FC ;
+    color: #3E82FC;
+    background-color: #FBFEFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.adicional{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.adicional span{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
